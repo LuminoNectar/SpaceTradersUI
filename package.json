@@ -1,23 +1,30 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
-  "description": "",
+  "name": "spacetradersui",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
   },
-  "license": "MIT",
+  "type": "module",
   "devDependencies": {
-    "typescript": "^4.9.5",
-    "vite": "^4.1.1",
-    "vite-plugin-solid": "^2.5.0"
+    "@types/babel__core": "^7.20.0",
+    "@types/debug": "^4.1.7",
+    "@types/node": "^18.11.18",
+    "esbuild": "^0.14.54",
+    "postcss": "^8.4.21",
+    "rollup": "^3.10.0",
+    "solid-start-node": "^0.2.19",
+    "typescript": "^4.9.4",
+    "vite": "^4.1.4"
   },
   "dependencies": {
+    "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.2",
-    "global": "^4.4.0",
-    "npm": "^9.6.6",
-    "solid-js": "^1.6.10"
+    "solid-js": "^1.7.2",
+    "solid-start": "^0.2.26",
+    "undici": "^5.15.1"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
